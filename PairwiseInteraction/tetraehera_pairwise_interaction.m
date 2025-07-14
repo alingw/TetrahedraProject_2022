@@ -15,6 +15,7 @@ viscosity = 0.8921*10^(-3);  %Pa s=Ns/m2 298K
 zeta_potential = 51.5; %mv
 lb=0.7; %nm
 ligand_density = 1; %number/nm^2
+kwater = sqrt(ionic_strength*(10^-3))/0.304;
 zb = 0.0615;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 
